@@ -17,7 +17,7 @@ def aliSign():
 
 
 if __name__ == '__main__':
-    port = 9099
+    port = 19951
     if (len(sys.argv) > 1):
         port = sys.argv[1]
     server.run(host='0.0.0.0', port=port)

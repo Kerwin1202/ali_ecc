@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  kapi:
+    build: .
+    container_name: "kapi"
+    restart: unless-stopped
+    ports:
+      - 1995:80
